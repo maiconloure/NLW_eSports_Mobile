@@ -18,7 +18,7 @@ export function Home() {
   }
 
   useEffect(() => {
-    fetch('https://281b-201-131-142-50.sa.ngrok.io/games')
+    fetch('https://ea06-201-131-142-50.sa.ngrok.io/games')
       .then(response => response.json())
       .then(data => setGames(data))
   }, [])
